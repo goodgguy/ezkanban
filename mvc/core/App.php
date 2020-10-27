@@ -12,6 +12,7 @@ class App{
             unset($arr[0]);
         }
         require_once "./mvc/controllers/".$this->controller.".php";
+        require_once "./mvc/setup.php";
         $this->controller=new $this->controller;
         if(isset($arr[1]))
         {
