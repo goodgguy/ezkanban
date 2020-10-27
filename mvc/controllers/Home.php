@@ -1,9 +1,10 @@
 <?php
-class Home
+class Home extends Controller
 {
     function homepage()
     {
-        echo "HOME PAGE";
+        $teo=$this->model("TestModel");
+        echo $teo->getData();
     }
 }
 ?>
