@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-10-27 11:48:29
+/* Smarty version 3.1.34-dev-7, created on 2020-10-29 04:29:34
   from 'C:\xampp\htdocs\ezkanban\mvc\templates\test.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f97fafd42f859_87639538',
+  'unifunc' => 'content_5f9a371ed1dc76_78847568',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,6 +18,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 3600,
 ),true)) {
-function content_5f97fafd42f859_87639538 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f9a371ed1dc76_78847568 (Smarty_Internal_Template $_smarty_tpl) {
 ?><a href="checkbutton">Visit W3Schools</a><?php }
 }

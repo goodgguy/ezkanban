@@ -11,7 +11,7 @@ class Home extends Controller
 
         $teo=$this->model("TestModel");
         $this->smarty->assign('check',$teo);
-        $this->smarty->display("test.tpl");
+        $this->smarty->display("index.tpl");
     }
     function checkbutton()
     {
